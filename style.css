@@ -1,0 +1,145 @@
+/*----font for logo----------------------
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  
+  
+  */
+
+/* ------font for normal text----------------------- 
+
+.dm-serif display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+ */
+
+
+
+
+ /*--------------font for h1 -------------
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*----------------h1----------------------------------------*/
+h1{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+ 
+    /* font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal; */
+
+}
+
+
+/*-------------------------navbar-------------------------------*/
+.navbar{
+  background-color: #E3E1D9;
+  position: sticky;
+  top:0px;
+  z-index: 10;
+}
+
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 5px;
+  font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.nav-item:hover{
+  border:1px solid white;
+  background-color:#B4B4B8 ;
+}
+
+
+/*--------------------carousel------------------*/
+carousel{
+    height: 380px;
+    
+
+}
+
+#about{
+  background-color:#E3E1D9;
+}
+
+/*------------------about me--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------our services-------------*/
+.card{
+  margin-left: 58px;
+}
+
+
+/*-----------form--------------------*/
+#form{
+  background-color:#E3E1D9;
+}
+
+
+
+/*---------------footer--------------*/
+footer{
+  background-color:#BED1CF;
+}
